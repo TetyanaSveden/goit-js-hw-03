@@ -2,7 +2,8 @@ function slugify(title) {
     return title
         .toLowerCase()
         .trim()
-        .replace(/\s+/g, "-");
+        .replace(/\s+/g, "-")
+        ;
 };
 console.log(slugify("Arrays for beginners")); // "arrays-for-beginners"
 console.log(slugify("English for developer")); // "english-for-developer"
